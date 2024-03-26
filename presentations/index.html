@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reveal.js-master/dist/reset.css" />
+    <link rel="stylesheet" href="reveal.js-master/dist/reveal.css" />
+    <link rel="stylesheet" href="reveal.js-master/dist/theme/dracula.css" />
+    <link rel="stylesheet" href="custom-css/test.css" />
+    <title>Inicio</title>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <section>
+            <h1>La Jungla</h1>
+            <img src="https://d.newsweek.com/en/full/1809693/cat-dog.jpg?w=1600&h=1600&q=88&f=117239ddc10e0929372035ef0b425e2e" style="width: 250px;" alt="">
+            <p>Encuentra tu mascota ideal</p>
+            <p style="font-size: 18px;">La Jungla es una fundación sin fines de lucro que se dedica al rescate de mascotas en situación de calle y coordina la adopción en hogares que se comprometen en su cuidado</p>
+        </section>
+
+        <section data-transition="slide-in fade-out">
+            <h3>Perros Cachorros</h3>
+            <section>
+                <p>Adopta a Lobo</p>
+                <img src="https://res.cloudinary.com/lancaster-puppies-laravel/image/upload/v1671046143/breeds/ks0jrcgbhkumufti0osa.jpg" style="width: 250px;">
+                <p>Husky Siberiano cariñoso de 3 meses</p>
+            </section>
+            <section>
+                <p>Adopta a Chicho</p>
+                <img src="https://www.pdsa.org.uk/media/9901/gallery-8-dachshund-puppy.jpg?anchor=center&mode=crop&quality=100&height=500&bgcolor=fff&rnd=132409430340000000" alt="" style="width: 250px;">
+                <p>Salchicha de 3 meses cariñoso</p>
+            </section>
+        </section>
+
+        <section data-state="make-it-pop">
+            <h3>Gatos</h3>
+            <section>
+                <p>Adopta a Felpa</p>
+                <img src="https://www.elespectador.com/resizer/YgvTGqw5eyPDD3RTo5SQyl-7tRU=/920x613/filters:quality(60):format(jpeg)/www.elespectador.com/resizer/GtLezpDdZTdlwNqHVM1C0zSafJw=/arc-anglerfish-arc2-prod-elespectador/public/BOP5BVFGYBDMDK4J5B7YQ3VOUM.jpg" alt="" style="width: 250px;">
+                <p>Gato mestizo de 2 años</p>
+            </section>
+            <section>
+                <p>Adopta a Pipo</p>
+                <img src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg" alt="" style="width: 250px;">
+                <p>Gato mestizo de 3 años</p>
+            </section>
+        </section>
+      </div>
+    </div>
+    <script src="reveal.js-master/dist/reveal.js"></script>
+    <script>
+      Reveal.initialize();
+      Reveal.on("make-it-pop", () => {
+        console.log("✨");
+      });
+    </script>
+  </body>
+</html>
